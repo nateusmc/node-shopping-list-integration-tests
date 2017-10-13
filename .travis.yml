@@ -1,2 +1,12 @@
 language: node_js
 node_js: node
+language: node_js
+node_js: node
+deploy: mighty-shelf-39881
+  provider: heroku
+  api_key:
+    secure: SYAtG54P0++FpzMyIP/osCS+YAn/E722OsqC4mzmpau/ZLN2u344s5MguzQ0uh9+W83/bGSDkQxwGrzZEZRyUg0iKuKDzaG41SiENU3lsiNVPdHwx9upYCMR0VVJKSEbSWHx2y+2SE7C9b8w3+HC57O/rrPmWKrQ9f0pRJUtk65FZLYIBkISR7gTkWu7rkEr3ZPot6IqLE8e09hEAAxhzVLhxBTrvy+pDKyL1j+7HA8aQ2WmifsQNG06k6gnQmeNYfiWGzsmooBSx9bFudqxiVvfB+qddIZfXs8GeJrhfc6UkbL1q+SXl/bawjkl5E3jNCWuSWuh5R6i343k6AtZ5DfPYbZJye6UqqssXzeO6aqL/YJ9ikmKhMs15f8DDaQXexSMe+h4I1fhmk6LTLRfUzF00I2r+ipXX9VdaR2oILXq270VyIrB90naZ8lU/BFQjPJMuL6iPJTPJs78hQr1KOoGZmxt1/bwerqoxL1Iy79W+1I7+o/x1QVAFIQ4UML3n9LEIGC26gF3mmxcx5Gb7ggyIwYJKX7H4wnPR/z9DlUe3GLvFOuzqCq5UoHnNTuavYKka3K6KqGHK7arnx8vuP1WK83gL2t0K5LGcrd92K9KXBbbmr7p5U1ZJmVc6tnpvuMJcvRzqOGMK8ZFkpajA9jH/HSfKP/heEAMP3kAAlE=
+  app: node-shopping-list-integration-tests
+  on:
+    repo: nateusmc/node-shopping-list-integration-tests
+    branch: tests-for-recipes
